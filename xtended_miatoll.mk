@@ -28,6 +28,10 @@ PRODUCT_MODEL := SM6250
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+TARGET_SHIPS_GALLERY := true
+
 # Xtended Stuffs
 XTENDED_BUILD_TYPE := OFFICIAL
 XTENDED_BUILD_MAINTAINER := COSMIC
