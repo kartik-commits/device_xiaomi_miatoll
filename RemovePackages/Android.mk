@@ -17,10 +17,10 @@ LOCAL_OVERRIDES_PACKAGES := \
     DevicePolicyPrebuilt \
     DMService \
     Drive \
-    Gallery2 \
     GCS \
     GoogleTTS \
     Maps \
+    MiuiScanner \
     MyVerizonServices \
     OBDM_Permissions \
     obdm_stub \
